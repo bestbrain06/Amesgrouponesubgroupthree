@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson Content | Statistics</title>
+<link rel="Stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header>
+  <h1>LESSON CONTENT</h1>
+  <p>Presenting Data Using Appropriate Graphs</p>
+</header>
+
+<nav>
+  <div id="ab">
+  <a href="FirstPage.html" >Home</a>
+  <a href="LessonContent.html" class="active">Lesson</a>
+  <a href="Interactive.html">Inter. Learning</a>
+  <a href="Practice.html">Practice</a>
+  <a href="Assessment.html">Assessment</a>
+  <a href="groupmembers.html">Authors</a>
+  </div>
+</nav>
+
+<main>
+
+  <section class="card">
+    <h3>1. Why Do We Present Data Graphically?</h3>
+    <p>Raw data (a long list of numbers) can be hard to interpret at a glance. A well-chosen graph
+    turns numbers into a visual pattern that is easier to read, compare and communicate to others.
+    Different graphs are suited to different types of data and different purposes.</p>
+  </section>
+
+  <section class="card">
+    <h3>2. The Bar Chart</h3>
+    <p>A bar chart uses rectangular bars of equal width to represent the frequency of categories.
+    Bars do not touch, since the data is usually categorical (discrete groups).</p>
+    <p><strong>Best used for:</strong> comparing quantities across separate categories, e.g. favourite
+    subjects, number of students per class.</p>
+    <table>
+      <caption>Example: Favourite Sport of 30 Students</caption>
+      <tr><th>Sport</th><th>Football</th><th>Volleyball</th><th>Athletics</th><th>Table Tennis</th></tr>
+      <tr><th>Number of Students</th><td>14</td><td>6</td><td>7</td><td>3</td></tr>
+    </table>
+    <img src="images/bar-chart.png" alt="Bar chart showing favourite sport of 30 students" class="chart-img">
+    <p>This data is best shown as a <strong>bar chart</strong> because the categories (sports) are
+    separate and unordered, and bars make it easy to compare their heights directly.</p>
+  </section>
+
+  <section class="card">
+    <h3>3. The Pie Chart</h3>
+    <p>A pie chart is a circle divided into sectors, where each sector's angle is proportional to the
+    quantity it represents. Sector angle = (frequency &divide; total) &times; 360&deg;.</p>
+    <p><strong>Best used for:</strong> showing how a whole is divided into parts (proportions/percentages),
+    e.g. how students spend their free time, market share.</p>
+    <div class="formula-box">
+      Example: If 15 out of 30 students prefer Football,<br>
+      Sector angle = (15 &divide; 30) &times; 360&deg; = 180&deg;
+    </div>
+    <img src="images/pie-chart.png" alt="Pie chart showing how SHS 1 students spend their free time" class="chart-img">
+    <p>Pie charts are less suitable when there are many categories or when precise comparison of
+    similar-sized slices is needed &mdash; a bar chart would be clearer in that case.</p>
+  </section>
+
+  <section class="card">
+    <h3>4. The Line Graph</h3>
+    <p>A line graph plots points connected by straight lines, usually against time.</p>
+    <p><strong>Best used for:</strong> showing trends or changes over time, e.g. temperature over a
+    week, a school's enrolment over several years.</p>
+    <table>
+      <caption>Example: Average Temperature (&deg;C) Over 5 Days</caption>
+      <tr><th>Day</th><td>Mon</td><td>Tue</td><td>Wed</td><td>Thu</td><td>Fri</td></tr>
+      <tr><th>Temp (&deg;C)</th><td>26</td><td>28</td><td>27</td><td>30</td><td>29</td></tr>
+    </table>
+    <img src="images/line-graph.png" alt="Line graph showing average temperature over five days" class="chart-img">
+    <p>A line graph is the most suitable choice here because it clearly shows the <strong>trend</strong>
+    (rise and fall) in temperature across consecutive days &mdash; something a pie chart cannot show.</p>
+  </section>
+
+  <section class="card">
+    <h3>5. The Histogram</h3>
+    <p>A histogram looks similar to a bar chart, but the bars represent continuous numerical data
+    grouped into class intervals, and the bars touch each other (no gaps) since the data is continuous.</p>
+    <p><strong>Best used for:</strong> continuous, grouped data such as heights, weights, scores or ages
+    grouped into class intervals.</p>
+    <table>
+      <caption>Example: Test Scores of 30 Students</caption>
+      <tr><th>Score Interval</th><td>40&ndash;49</td><td>50&ndash;59</td><td>60&ndash;69</td><td>70&ndash;79</td><td>80&ndash;89</td></tr>
+      <tr><th>Frequency</th><td>3</td><td>6</td><td>10</td><td>7</td><td>4</td></tr>
+    </table>
+    <img src="images/histogram.png" alt="Histogram showing test scores of 30 students grouped into class intervals" class="chart-img">
+    <p>A histogram is used here because scores are continuous numerical data grouped into equal class
+    intervals, and the touching bars show that the intervals flow into one another with no gaps.</p>
+  </section>
+
+  <section class="card">
+    <h3>6. The Pictogram</h3>
+    <p>A pictogram uses small pictures or symbols to represent a fixed quantity, with a key/legend
+    showing what each symbol stands for.</p>
+    <p><strong>Best used for:</strong> simple data presentation for a general or younger audience,
+    where an appealing visual is more important than precise values.</p>
+    <table>
+      <caption>Example: Number of Books Read This Term</caption>
+      <tr><th>Student</th><td>Ama</td><td>Kojo</td><td>Esi</td><td>Yaw</td></tr>
+      <tr><th>Books Read</th><td>15</td><td>10</td><td>20</td><td>5</td></tr>
+    </table>
+    <img src="images/pictogram.png" alt="Pictogram showing number of books read by four students, one icon equals five books" class="chart-img">
+    <p>A pictogram is a friendly, visual way to present this data, where each icon represents 5 books.
+    It sacrifices some precision but is quick and appealing to read.</p>
+  </section>
+
+  <section class="card">
+    <h3>7. Choosing and Justifying the Right Graph</h3>
+    <table>
+      <caption>Quick Reference: Which Graph to Use</caption>
+      <tr><th>Type of Data / Purpose</th><th>Best Graph</th><th>Why</th></tr>
+      <tr><td>Comparing separate categories</td><td>Bar Chart</td><td>Clear side-by-side comparison</td></tr>
+      <tr><td>Showing parts of a whole (%)</td><td>Pie Chart</td><td>Shows proportion at a glance</td></tr>
+      <tr><td>Showing change/trend over time</td><td>Line Graph</td><td>Shows direction of change clearly</td></tr>
+      <tr><td>Continuous grouped data</td><td>Histogram</td><td>Represents ranges without gaps</td></tr>
+      <tr><td>Simple, general-audience data</td><td>Pictogram</td><td>Visually appealing and easy to read</td></tr>
+    </table>
+    <p>When justifying a choice of graph, always refer to: (1) the <strong>type of data</strong>
+    (categorical, continuous, or time-based), (2) the <strong>purpose</strong> (comparison, proportion,
+    or trend), and (3) the <strong>audience</strong> who will read the graph.</p>
+  </section>
+
+  <section class="card">
+    <h3>Teaching Philosophy &amp; Learning Theory</h3>
+    <p>This lesson is underpinned by a <strong>constructivist</strong> philosophy, drawing on Bruner's
+    theory of discovery learning: learners compare data sets and decide for themselves which graph
+    communicates the information best, rather than being told a fixed rule. This is reinforced by
+    Vygotsky's social constructivism through peer discussion and justification of choices, and by
+    hands-on use of digital graphing tools.</p>
+  </section>
+
+  <section class="card">
+    <h3>Teaching &amp; Learning Resources</h3>
+    <ul>
+      <li>Web browser and this website (HTML/CSS)</li>
+      <li>GeoGebra and Desmos (interactive graphing)</li>
+      <li>YouTube instructional video</li>
+      <li>Graph paper / mini whiteboards for hand-drawn practice</li>
+    </ul>
+  </section>
+
+</main>
+
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practice Activities | Statistics</title>
+<link rel="Stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>PRACTICE ACTIVITIES</h1>
+  <p>Choose and Justify the Right Graph</p>
+</header>
+
+<nav>
+  <div id="ab">
+  <a href="FirstPage.html" >Home</a>
+  <a href="LessonContent.html">Lesson</a>
+  <a href="Interactive.html">Inter. Learning</a>
+  <a href="Practice.html" class="active">Practice</a>
+  <a href="Assessment.html">Assessment</a>
+  <a href="groupmembers.html">Authors</a>
+  </div>
+</nav>
+
+
+<main>
+
+  <section class="card">
+    <p>For each situation, decide which graph you would use and why. Click <strong>Hint</strong> if you
+    get stuck, and <strong>Show Worked Solution</strong> to check your answer and justification.</p>
+  </section>
+
+  <div class="question-block">
+    <h3>Question 1</h3>
+    <p>A teacher records how many students chose each favourite fruit: Mango (10), Orange (8), Banana (5),
+    Pineapple (7). Which graph should be used to present this data, and why?</p>
+    <button class="toggle-btn" onclick="toggleBlock('hint1')">Hint</button>
+    <button class="toggle-btn" onclick="toggleBlock('sol1')">Show Worked Solution</button>
+    <div id="hint1" class="hint">Hint: The categories (fruits) are separate and unordered &mdash; think about which graph compares categories side by side.</div>
+    <div id="sol1" class="solution"><strong>Bar Chart.</strong> The data is categorical (separate fruit types) with no natural order, and a bar chart allows quick, direct comparison of the heights/quantities for each category.</div>
+  </div>
+
+  <div class="question-block">
+    <h3>Question 2</h3>
+    <p>A school wants to show what percentage of its budget is spent on Salaries, Infrastructure,
+    Learning Materials and Sports. Which graph is most suitable?</p>
+    <button class="toggle-btn" onclick="toggleBlock('hint2')">Hint</button>
+    <button class="toggle-btn" onclick="toggleBlock('sol2')">Show Worked Solution</button>
+    <div id="hint2" class="hint">Hint: The question is about parts of a whole budget (100%).</div>
+    <div id="sol2" class="solution"><strong>Pie Chart.</strong> The data represents proportions of a whole (the total budget), and a pie chart clearly shows how each category's share compares to the total.</div>
+  </div>
+
+  <div class="question-block">
+    <h3>Question 3</h3>
+    <p>A hospital wants to show how a patient's body temperature changed every hour over a 12-hour
+    period. Which graph should be used?</p>
+    <button class="toggle-btn" onclick="toggleBlock('hint3')">Hint</button>
+    <button class="toggle-btn" onclick="toggleBlock('sol3')">Show Worked Solution</button>
+    <div id="hint3" class="hint">Hint: The data changes continuously over time &mdash; which graph is best for showing trends?</div>
+    <div id="sol3" class="solution"><strong>Line Graph.</strong> Temperature over time is continuous, sequential data, and a line graph clearly shows the trend (rising or falling pattern) hour by hour.</div>
+  </div>
+
+  <div class="question-block">
+    <h3>Question 4</h3>
+    <p>The heights (in cm) of 40 SHS 1 students are grouped into class intervals: 150&ndash;154, 155&ndash;159,
+    160&ndash;164, 165&ndash;169, 170&ndash;174. Which graph should be used to present this data?</p>
+    <button class="toggle-btn" onclick="toggleBlock('hint4')">Hint</button>
+    <button class="toggle-btn" onclick="toggleBlock('sol4')">Show Worked Solution</button>
+    <div id="hint4" class="hint">Hint: The data is continuous and grouped into equal class intervals &mdash; the bars should touch.</div>
+    <div id="sol4" class="solution"><strong>Histogram.</strong> Height is continuous numerical data grouped into class intervals, so a histogram (bars touching, representing ranges) is the correct choice &mdash; not a bar chart, which is for separate categories.</div>
+  </div>
+
+  <div class="question-block">
+    <h3>Question 5</h3>
+    <p>A student presents the number of books read by their class using a pie chart with 15 very thin,
+    similarly-sized slices that are hard to compare. Explain why this was a poor choice, and suggest a
+    more suitable graph.</p>
+    <button class="toggle-btn" onclick="toggleBlock('hint5')">Hint</button>
+    <button class="toggle-btn" onclick="toggleBlock('sol5')">Show Worked Solution</button>
+    <div id="hint5" class="hint">Hint: Think about how easy it is to compare many thin slices of similar size in a pie chart versus another graph type.</div>
+    <div id="sol5" class="solution">A pie chart with 15 similarly-sized thin slices is hard to read because the human eye struggles to compare small angle differences accurately. A <strong>bar chart</strong> would be more suitable, since it allows each category (student) to be compared directly by bar height, even with many categories.</div>
+  </div>
+
+</main>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

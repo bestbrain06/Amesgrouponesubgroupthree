@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assessment | Statistics</title>
+<link rel="Stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>ASSESSMENT</h1>
+  <p>Short Quiz: Presenting Data with Appropriate Graphs</p>
+</header>
+
+<nav>
+  <div id="ab">
+  <a href="FirstPage.html">Home</a>
+  <a href="LessonContent.html">Lesson</a>
+  <a href="Interactive.html">Inter. Learning</a>
+  <a href="Practice.html">Practice</a>
+  <a href="Assessment.html"  class="active">Assessment</a>
+  <a href="groupmembers.html">Authors</a>
+
+  </div>
+</nav>
+
+
+<main>
+
+  <section class="card">
+    <p>Answer all 6 questions below, then click <strong>Submit Quiz</strong> to see your score instantly.
+    This quiz combines Multiple Choice, True/False and Short Answer questions, supporting
+    <strong>Assessment as Learning</strong> (you check your own understanding) and
+    <strong>Assessment for Learning</strong> (you get immediate feedback to guide further study).</p>
+  </section>
+
+  <form class="card" id="quiz-form" onsubmit="return false;">
+
+    <div class="quiz-question">
+      <strong>1. (Multiple Choice)</strong> Which graph is best for showing how a whole budget is divided into categories?
+      <label><input type="radio" name="q1" value="a"> a) Line Graph</label>
+      <label><input type="radio" name="q1" value="b"> b) Pie Chart</label>
+      <label><input type="radio" name="q1" value="c"> c) Histogram</label>
+      <label><input type="radio" name="q1" value="d"> d) Pictogram</label>
+    </div>
+
+    <div class="quiz-question">
+      <strong>2. (True/False)</strong> In a histogram, the bars touch each other because the data is continuous.
+      <label><input type="radio" name="q2" value="true"> True</label>
+      <label><input type="radio" name="q2" value="false"> False</label>
+    </div>
+
+    <div class="quiz-question">
+      <strong>3. (Multiple Choice)</strong> Which graph is most suitable for showing a trend over time, such as rainfall each month of the year?
+      <label><input type="radio" name="q3" value="a"> a) Bar Chart</label>
+      <label><input type="radio" name="q3" value="b"> b) Line Graph</label>
+      <label><input type="radio" name="q3" value="c"> c) Pie Chart</label>
+    </div>
+
+    <div class="quiz-question">
+      <strong>4. (True/False)</strong> A bar chart and a histogram are exactly the same, with no difference between them.
+      <label><input type="radio" name="q4" value="true"> True</label>
+      <label><input type="radio" name="q4" value="false"> False</label>
+    </div>
+
+    <div class="quiz-question">
+      <strong>5. (Short Answer)</strong> Name the graph type that uses small symbols/pictures with a key to represent quantities.
+      <input type="text" name="q5" placeholder="Your answer">
+    </div>
+
+    <div class="quiz-question">
+      <strong>6. (Short Answer)</strong> A shop wants to compare the number of items sold in 5 different (unordered) product categories. Name the most suitable graph.
+      <input type="text" name="q6" placeholder="Your answer">
+    </div>
+
+    <button type="button" class="btn" onclick="gradeQuiz()">Submit Quiz</button>
+    <div id="quiz-result"></div>
+  </form>
+
+  <section class="card">
+    <h3>Assessment Design Note</h3>
+    <p>This page provides <strong>Assessment for Learning (AfL)</strong> and
+    <strong>Assessment as Learning (AaL)</strong> through instant, self-marking feedback that helps
+    learners identify gaps in understanding of graph selection and justification.
+    <strong>Assessment of Learning (AoL)</strong> is carried out separately by the teacher through a
+    formal end-of-topic test using a Google Forms link, which can be added here by the teacher:
+    <a href="https://forms.google.com" target="_blank" rel="noopener">Open Google Forms &rarr;</a></p>
+  </section>
+
+</main>
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
